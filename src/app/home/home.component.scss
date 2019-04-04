@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+.main {
+    background: url(../../assets/img/MacBook.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+
+    .content {
+        margin-top: 14em;
+        position: relative;
+
+        .main-content {
+            color: white;
+            left: 8em;
+            position: absolute;
+            margin-bottom: 1em;
+
+            h1 {
+                font-size: 32pt;
+                margin-bottom: 1em;
+            }
+
+            p {
+                color: #e0e0e0;
+                font-size: 16pt;
+                line-height: 2em;
+                margin-bottom: 1em;
+            }
+
+            .button {
+                border-radius: 30px;
+                background-color: #e0e0e0;
+                font-size: 18pt;
+                padding: .5em 1em .5em 1em; 
+                color: #424242;
+            }
+
+            .right-col img {
+                // height: 1000%;
+                width: 100%;
+                margin-top: -20em;
+            }
+
+            .social-list {
+                display: inline-flex;
+                list-style-type: none;
+                margin-left: -2.5em;;
+
+                .social-item {
+                    padding: 1.5em;
+                    margin-right: 1.5em;
+                }
+            }
+
+        }
+
+        #navbarTogglerDemo02{
+            background: #864baf;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-content {
+        color: white;
+        left: 0em !important;
+        position: relative !important;
+        margin-bottom: 1em;
+
+        .left-col {
+            padding: 3em;
+            margin-top: -14em;
+        }
+
+        h1 {
+            font-size: 28pt;
+            margin-bottom: .7em;
+        }
+
+        p {
+            color: #e0e0e0;
+            font-size: 14pt;
+            line-height: 2em;
+            margin-bottom: 1em;
+        }
+
+        .button {
+            border-radius: 30px;
+            background-color: #e0e0e0;
+            font-size: 14pt;
+            padding: .3em .7em .3em .7em; 
+            color: #424242;     
+        }
+
+        .right-col{
+            display: none;
+        }
+
+        .right-col img {
+            // height: 1000%;
+            width: 100%;
+            margin-top: -20em;
+            display: none;
+        }
+
+        .social-list {
+            display: inline-flex;
+            list-style-type: none;
+            margin-left: -2.5em;;
+
+            .social-item {
+                padding: 1.5em;
+                margin-right: 1.5em;
+            }
+        }
+
+        
+    }
+
+}

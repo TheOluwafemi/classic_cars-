@@ -1,0 +1,67 @@
+
+<nav class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar mb-4">
+  <a class="navbar-brand" href="#">Classic Cars</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="[ '/home']">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[ '/add-employee']" >Add Employee</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container-fluid mt-4">
+    <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmpNumber">Employee Number</label>
+        <input type="number" class="form-control" id="empNumber" placeholder="e.g 170**">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputLastName">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="enter last name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputFirstNumber">First name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="enter first name">
+    </div>
+    <div class="form-group">
+      <label for="extension">Extension</label>
+      <input type="text" class="form-control" id="extension" placeholder="x40**">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputOfficeCode">Office code</label>
+        <input type="text" class="form-control" id="officeCode">
+      </div>
+      <div class="form-group col-md-2">
+        <label for="reportsTo">Reporting officer Code</label>
+        <input type="number" class="form-control" id="reportsTo" placeholder="11**">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="jobtitle">Job title</label>
+      <input type="text" class="form-control" id="jobTitle" placeholder="IT support">
+    </div>
+    <button type="submit" class="btn btn-primary">Create Employee</button>
+  </form>
+</div>
