@@ -16,6 +16,7 @@ import { FeaturesComponent } from './features/features.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FeaturesRoutingModule } from './features/features-routing.module';
 import { FeaturesModule } from './features/features.module';
+import { UserModule } from './user/user.module';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { FeaturesModule } from './features/features.module';
     FormsModule,   
     BrowserAnimationsModule,
     CoreModule,
+    UserModule,
     FeaturesModule,
     MaterialModule,
     NgxUiLoaderModule

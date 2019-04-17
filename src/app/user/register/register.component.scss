@@ -1,0 +1,114 @@
+#loginPage {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    .imageArea {
+        height: 100vh;
+        background: url('../../../assets/img/Antique.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .loginArea {
+        height: 100vh;
+        padding: 2em;
+        background-color: whitesmoke;
+
+        .loginContent {
+            margin-top: 1em;    
+
+            .brand {
+                // height: 10%;
+                margin-bottom: 4em;
+
+                h3 {
+                    font-family: 'Pacifico', cursive;
+                    color: #5B4EA5;
+                }
+
+            }
+
+            .formArea {
+                margin-top: 6em;
+                padding: 2em;
+
+                .title {
+                    margin-bottom: 4em;
+
+                    p{
+                        font-family: Quattrocento Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: normal;
+                    }
+                }
+
+                .signUpForm {
+
+                    form {
+
+                        .uk-margin {
+                            margin-bottom: 2.5em !important;
+                        }
+
+                        .usernameLine{
+                        }
+
+                        .passwordLine {
+                        }
+
+                        .submitArea {
+
+                            span {
+                                font-family: Quattrocento Sans;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: normal;
+                                color: rgba(0, 0, 0, 0.57);
+                            }
+
+                            button.uk-button.uk-button-default{
+                                float: right !important;
+                                background: #5B4EA5 !important;
+                                color: white;
+                                margin-right: 1em;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .registerBox {
+                margin-top: 5em;
+                text-align: center;
+                color: #5B4EA5;
+                border: 1px solid rgba(0, 0, 0, 0.27);
+                box-sizing: border-box;
+                border-radius: 6px;
+                align-items: center;
+                align-content: center;
+                padding: .5em;
+                margin-right: 3em;
+                margin-left: 3em;
+
+                p {
+                    font-family: Quattrocento Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: normal;
+                    margin-top: 1em;
+                    vertical-align: middle;
+                }
+            }
+
+        }
+        
+    }
+}
